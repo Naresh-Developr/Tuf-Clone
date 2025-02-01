@@ -1,14 +1,14 @@
 .outer-container1{
     background-color: #191919;
-    margin-top:50px ;
-    margin-left:300px;
-    margin-right:300px;
-    margin-bottom: 50px;
-    display:flex;
+    margin: 50px auto;
+    max-width: 70%;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius:25px;
-    
+    border-radius: 25px;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px
 }
 .outer-container1:hover{
     border: 1px solid red
@@ -22,7 +22,9 @@
     
 }
 .img-para{
-    margin: 30px;    
+    display: flex;
+    align-items: center;
+    gap: 15px;    
 }
 
 .artical-content{
@@ -47,7 +49,39 @@
     font:bold;
     font-weight: 500;
     background-color: red;
-    color:white;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
     align-items: center;
-    margin-right: 50px;
+    justify-content: center;
+    margin: auto;
+}
+
+.TufPlusCardButton{
+    display: flex;
+    
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .outer-container1 {
+        flex-direction: column;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .img-para {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .artical-content {
+        text-align: center;
+    }
+
+    .explore-button {
+        width: 100%;
+        max-width: 200px;
+    }
 }

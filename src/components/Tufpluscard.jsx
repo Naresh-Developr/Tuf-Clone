@@ -14,8 +14,9 @@ function Tufpluscard() {
             </p>
             </div>
         </artical>
-
+        <div className='TufPlusCardButton'>
         <button className='explore-button'>Explore Plus</button>
+        </div>
         
     </div>
   )
