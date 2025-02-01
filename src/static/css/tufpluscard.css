@@ -1,0 +1,53 @@
+.outer-container1{
+    background-color: #191919;
+    margin-top:50px ;
+    margin-left:300px;
+    margin-right:300px;
+    margin-bottom: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius:25px;
+    
+}
+.outer-container1:hover{
+    border: 1px solid red
+}
+
+.img-para img {
+    height:100px;
+    width:100px;
+    background-color: whitesmoke;
+    border-radius: 25%;
+    
+}
+.img-para{
+    margin: 30px;    
+}
+
+.artical-content{
+    margin-left: 15px;
+    float: right;
+}
+
+.h3-para-head{
+    color:white;
+    font: bold;
+}
+
+.paragraph{
+    color:#454547
+}
+
+
+.explore-button{
+    height:47px;
+    width:150px;
+    border-radius: 30px;
+    font:bold;
+    font-weight: 500;
+    background-color: red;
+    color:white;
+    align-items: center;
+    margin-right: 50px;
+}
